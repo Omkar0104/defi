@@ -1,0 +1,100 @@
+{
+  "manifestVersion": "3.2",
+  "admin": {
+    "address": "0x13034F9CcB15f7bf2A271A912D6C81F4468F1a20",
+    "txHash": "0xbd1950a36d1e54286c6cc3ff5bd70f5faec0a1f61867287e6092891b809ed959"
+  },
+  "proxies": [
+    {
+      "address": "0xCc79Ae6F627B986f6471E98CC606CBce4827B71d",
+      "txHash": "0x8a720d758cece4bbb89cc821775f7818da34adcce350fb719c04609e394c7acd",
+      "kind": "transparent"
+    },
+    {
+      "address": "0xdd1543790cD2F88002D48Da2E02C1044bB8C1CE2",
+      "txHash": "0x51dcf3c1a9a3723446e757da93cf7008e8c19f6774a2dfd15d631d102ee02f25",
+      "kind": "transparent"
+    },
+    {
+      "address": "0x5FAba84D570d99DEfEd13dEBa1A83434B178B9a6",
+      "txHash": "0x8c29e0ff8ef207a85038142e31c9586c008a01805ced8dca65f4d92618c5fe34",
+      "kind": "transparent"
+    },
+    {
+      "address": "0x0f952B2c1FaD0038fE679968363F9A20294Ed005",
+      "txHash": "0x4d3bed2db93f591be6ee9abe9a2b227d55715b194667433043ec22daff0493c0",
+      "kind": "transparent"
+    },
+    {
+      "address": "0x7c841d09aBf0d8BE267513228F32EeDf0D84461d",
+      "txHash": "0xfcae79acca49dd8049712e6d190fda7d4103b85b66887420f51846c62423c69e",
+      "kind": "transparent"
+    }
+  ],
+  "impls": {
+    "a7a6de342c6ed4878c287dac054381ca0e3fd80478ec91cd0d2c53fead40fce3": {
+      "address": "0x506A77eeB542f2d045ba3a00739bBfe01dfa71DA",
+      "txHash": "0x7063ceb736a92861dc7e96a6e27e9c3edb5457c53f3766d067152b9a93744087",
+      "layout": {
+        "solcVersion": "0.8.11",
+        "storage": [
+          {
+            "label": "_initialized",
+            "offset": 0,
+            "slot": "0",
+            "type": "t_uint8",
+            "contract": "Initializable",
+            "src": "@openzeppelin\\contracts-upgradeable\\proxy\\utils\\Initializable.sol:62",
+            "retypedFrom": "bool"
+          },
+          {
+            "label": "_initializing",
+            "offset": 1,
+            "slot": "0",
+            "type": "t_bool",
+            "contract": "Initializable",
+            "src": "@openzeppelin\\contracts-upgradeable\\proxy\\utils\\Initializable.sol:67"
+          },
+          {
+            "label": "flaggingThreshold",
+            "offset": 2,
+            "slot": "0",
+            "type": "t_uint16",
+            "contract": "Governance",
+            "src": "contracts\\GovernanceContract.sol:8"
+          },
+          {
+            "label": "currentFlags",
+            "offset": 4,
+            "slot": "0",
+            "type": "t_uint16",
+            "contract": "Governance",
+            "src": "contracts\\GovernanceContract.sol:9"
+          },
+          {
+            "label": "isPlatformEnabled",
+            "offset": 6,
+            "slot": "0",
+            "type": "t_bool",
+            "contract": "Governance",
+            "src": "contracts\\GovernanceContract.sol:10"
+          }
+        ],
+        "types": {
+          "t_bool": {
+            "label": "bool",
+            "numberOfBytes": "1"
+          },
+          "t_uint16": {
+            "label": "uint16",
+            "numberOfBytes": "2"
+          },
+          "t_uint8": {
+            "label": "uint8",
+            "numberOfBytes": "1"
+          }
+        }
+      }
+    }
+  }
+}

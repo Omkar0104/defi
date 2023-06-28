@@ -1,0 +1,17 @@
+{
+  "name": "defi-hardhat",
+  "version": "1.0.0",
+  "description": "## About The Project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "hardhat": "^2.12.7"
+  },
+  "dependencies": {
+    "solc": "^0.8.19"
+  }
+}
